@@ -8,6 +8,7 @@ A machine learning project that analyzes transaction data and evaluates fraud-de
 - Supervised model training and comparison (including logistic regression and random forest)
 - Precision/recall-focused evaluation for imbalanced classification
 - Hyperparameter tuning using cross-validation (`GridSearchCV` with `cv=5`)
+- SMOTE-based oversampling on training data to improve minority-class learning
 
 ## Tech Stack
 
@@ -27,5 +28,4 @@ A machine learning project that analyzes transaction data and evaluates fraud-de
 
 ## Notes on CV alignment
 
-This repo clearly supports claims around model comparison and precision/recall evaluation.
-SMOTE-specific implementation is not obvious in the current tracked notebook and should only be claimed if added/documented.
+This repo supports claims around model comparison, precision/recall evaluation, and SMOTE usage for imbalance handling.
