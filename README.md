@@ -1,37 +1,31 @@
 # Credit Card Fraud Detection
 
-A machine learning project that explores fraud detection on financial transaction data using supervised learning in Jupyter notebooks.
+A machine learning project that analyzes transaction data and evaluates fraud-detection classifiers with a notebook-first workflow.
 
-## Overview
+## What this project demonstrates
 
-Credit card fraud causes major financial losses to institutions and users. This project evaluates classification approaches to identify fraudulent transactions, with logistic regression as a key baseline model.
-
-## Features
-
-- End-to-end notebook-based workflow
-- Data preprocessing and feature analysis
-- Model training and evaluation for fraud classification
-- Comparative analysis across ML approaches
-
-## Dataset
-
-- Kaggle: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Data preprocessing and exploratory analysis on fraud datasets
+- Supervised model training and comparison (including logistic regression and random forest)
+- Precision/recall-focused evaluation for imbalanced classification
+- Hyperparameter tuning using cross-validation (`GridSearchCV` with `cv=5`)
 
 ## Tech Stack
 
 - Python
 - Jupyter Notebook
-- Pandas
-- NumPy
+- Pandas, NumPy
 - scikit-learn
-- TensorFlow
-- tabulate
 
-## Repository Structure
+## Repository Contents
 
-- `project final.ipynb`: primary notebook workflow
-- Supporting documentation and reports
+- `project final.ipynb` - core experiment notebook
+- Supporting report/proposal/presentation files
 
-## Notes
+## Dataset
 
-This repository is extracted as a standalone project from the original `uni-projects` collection.
+- Kaggle: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+## Notes on CV alignment
+
+This repo clearly supports claims around model comparison and precision/recall evaluation.
+SMOTE-specific implementation is not obvious in the current tracked notebook and should only be claimed if added/documented.
