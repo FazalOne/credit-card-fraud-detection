@@ -6,6 +6,7 @@ A machine learning project that analyzes transaction data and evaluates fraud-de
 
 - Data preprocessing and exploratory analysis on fraud datasets
 - Supervised model training and comparison (including logistic regression and random forest)
+- Supervised model training and comparison (logistic regression, decision tree, random forest, and ANN)
 - Precision/recall-focused evaluation for imbalanced classification
 - Hyperparameter tuning using cross-validation (`GridSearchCV` with `cv=5`)
 - SMOTE-based oversampling on training data to improve minority-class learning
@@ -17,6 +18,7 @@ A machine learning project that analyzes transaction data and evaluates fraud-de
 - Jupyter Notebook
 - Pandas, NumPy
 - scikit-learn
+- TensorFlow / Keras (ANN model)
 
 ## Repository Contents
 
