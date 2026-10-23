@@ -1,0 +1,9 @@
+numpy
+pandas
+tabulate
+matplotlib
+tensorflow
+scikit-learn
+imbalanced-learn
+kagglehub
+scikeras
